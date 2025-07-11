@@ -1,5 +1,5 @@
 import React from "react";
-
+import { getRecipeFromMistral } from "./ai"
 export default function Content() {
     const [currArr, setItems] = React.useState([]);
 
